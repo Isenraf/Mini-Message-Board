@@ -1,0 +1,18 @@
+{
+  "name": "board",
+  "version": "1.0.0",
+  "description": "mini message board",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "silidje moket",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  },
+  "engines": {
+    "node": "16.16.0"
+  }
+}

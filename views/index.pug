@@ -1,0 +1,12 @@
+html
+  head
+    title= title
+  body
+    h1= title
+    a(href="/new") add message 
+    ul
+        each msg in messages 
+            li
+                p= msg.user
+                p= msg.text
+                p= msg.added
